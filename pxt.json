@@ -1,10 +1,11 @@
 {
-    "name": "xmas light strip",
+    "name": "microbit-xmas-led-strip",
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.2",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.7.5"
     },
     "files": [
         "main.blocks",
